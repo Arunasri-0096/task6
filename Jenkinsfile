@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-id') // stored in Jenkins
-        DOCKER_IMAGE = "yourdockerhubusername/rose-web:latest"
+        DOCKER_IMAGE = "arunasri0096/task6:latest"
     }
     stages {
         stage('Checkout') {
